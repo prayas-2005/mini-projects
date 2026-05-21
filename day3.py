@@ -5,7 +5,7 @@ p = 3
 
 div = int(m/n)
 if n  > 0:
-    res = int(m/n) * p
-    print(res)
+    result = int(m/n) * p
+    print(result)
 else:
     print("not possible")
