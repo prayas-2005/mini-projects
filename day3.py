@@ -1,3 +1,4 @@
+
 n = (int)(input("Enter the child : "))
 m = (int)(input("Enter the pieces of candy : "))
 p = 3
