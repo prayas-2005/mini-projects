@@ -10,7 +10,7 @@ def multi(a, b):
 def div(a, b):
     return(a/b)
 
-print(sum(2, 3))
+print(sum(4, 3))
 print(sub(34, 23))
 print(multi(12, 11))
 print(div(12, 5))
