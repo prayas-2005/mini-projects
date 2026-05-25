@@ -16,7 +16,7 @@ print("Please Select operation -\n"
       "3. Multiply\n",
       "4. Divide\n")
 
-sel = (int)(input("Please Enter the number(1-4) : "))
+sel = (int)(input("Please Enter the choice(1-4) : "))
 
 n1 = (int)(input("Enter the first number : "))
 n2 = (int)(input("Enter the second number : "))
