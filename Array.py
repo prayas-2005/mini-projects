@@ -58,8 +58,8 @@
 #         print(arr[x])
      
      
-# arr = [1, 3, 5, 7, 9]
-# print(arr[0:3])   
+arr = [1, 3, 5, 7, 9]
+print(arr[0:3])   
 
 
 
