@@ -1,10 +1,13 @@
+def solution(a):
+    def helper(num):
+        digits = [int(d) for d in str(abs(num))]
+        return max(digits) - min(digits)
+    
+    new_arr = [(val, i) for i, val in enumerate(a)]
+   
+    new_arr.sort(key=lambda x: (helper(x[0]), -x[1]))
+    
+    return [val for val, i in new_arr]
+  
 a = [152, 23, 7, 887, 243]
-new_arr = []
-for i in range(len(a)):
-    new_arr.append(5-1)
-    new_arr.append(3-2)
-    new_arr.append(7-7)
-    new_arr.append(8-7)
-    new_arr.append(4-2)
-
-print(new_arr)
+print(solution(a))
