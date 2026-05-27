@@ -9,19 +9,18 @@
 
 
         
-def solution(word1, word2):
-     set1 = set(word1)
-     set2 = set(word2)
+# def solution(word1, word2):
+#      set1 = set(word1) 
+#      set2 = set(word2)
      
-     x = set1 - set2
-     y = set2 - set1
+#      x = set1 - set2
+#      y = set2 - set1
      
-     return "".join(sorted(x)), "".join(sorted(y))
+#      return "".join(sorted(x)), "".join(sorted(y))
        
-      
-word1 = "program"
-word2 = "develop"
-print(solution(word1, word2))
+# word1 = "program"
+# word2 = "develop"
+# print(solution(word1, word2))
 
 
 

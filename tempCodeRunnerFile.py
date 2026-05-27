@@ -1,1 +1,7 @@
-s = 0
+f = open(r"D:\python learning\demo.txt", "r")
+data = f.read()
+print(data)
+print("file name : ", f.name)
+print("file mode: ",f.mode)
+print("Closed ? :", f.closed)
+f.close()
