@@ -1,2 +1,1 @@
-arr.sort()
-# print(arr)
+matrix = [[0] * n for _ in range(n)]
