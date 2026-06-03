@@ -51,18 +51,28 @@
 
 
 
-# Inheritance
-class Person:
-    def __init__(self, fname, lname):
-        self.fname = fname
-        self.lname = lname
+# # Inheritance
+# class Person:
+#     def __init__(self, fname, lname):
+#         self.fname = fname
+#         self.lname = lname
     
-    def printname(self):
-        print(self.fname, self.lname)
+#     def printname(self):
+#         print(self.fname, self.lname)
     
-class Student(Person):
-    def __init__(self, fname, lname):
-        Person.__init__(self, fname, lname)
+# class Student(Person):
+#     def __init__(self, fname, lname):
+#         Person.__init__(self, fname, lname)
 
-p = Student("Prayas", "Saini")
-p.printname()
+# p = Student("Prayas", "Saini")
+# p.printname()
+
+# a = 256
+# b = 256
+# print(a is b)
+
+# x = 257
+# y = 257
+# print(x is y)
+
+print(10 or 20 and 0)
